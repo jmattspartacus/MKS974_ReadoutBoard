@@ -666,6 +666,19 @@
 				)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DS-09-A-KG-T4/21656068"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad5fa190-3cce-45e4-985c-d26bf87c59bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DSUB*Male*")
 		(path "/b95b89de-1956-4bc8-8b9c-941d90cb27e6")
 		(sheetname "Root")
@@ -1047,6 +1060,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/amphenol-icc-fci/ICD15S13E4GX00LF/1536501"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72a6b6ac-08c8-4181-81e0-aa753f57f594")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1488,6 +1514,19 @@
 				)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DS-09-A-KG-T4/21656068"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e01aea6-1e04-48dd-80d7-f4402c0e74e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DSUB*Male*")
 		(path "/1524cc07-19a9-4304-be8e-9f58972bc1d1")
 		(sheetname "Root")
@@ -1870,6 +1909,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DS-09-A-KG-T4/21656068"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fe122ee-da6c-4142-a350-92acafc64e34")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2805,6 +2857,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/amphenol-icc-fci/ICD15S13E4GX00LF/1536501"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efac212f-c7a5-482b-8b17-451fd64f0e5d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3796,6 +3861,19 @@
 				)
 			)
 		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/assmann-wsw-components/A-DS-09-A-KG-T4/21656068"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d26a4b8-4d6e-4494-8169-67d6002c9736")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DSUB*Male*")
 		(path "/fa510308-1624-42fc-b0a3-5ef704507be8")
 		(sheetname "Root")
@@ -4178,6 +4256,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/amphenol-icc-fci/ICD15S13E4GX00LF/1536501"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "354210e0-245f-4244-9c22-9d2b26f29119")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4615,6 +4706,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Listing" "https://www.digikey.com/en/products/detail/amphenol-icc-fci/ICD15S13E4GX00LF/1536501"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db00e393-1de8-444a-90b1-4da8dc92a1e9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
