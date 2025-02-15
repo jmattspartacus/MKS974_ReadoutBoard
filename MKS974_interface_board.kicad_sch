@@ -1,0 +1,3169 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "MKS 974-4x Interface for GODDESS")
+		(date "2025-02-13")
+		(rev "0")
+	)
+	(lib_symbols
+		(symbol "Connector:Barrel_Jack"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9342 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9342 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.222 -1.808)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 1.8083)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:DB15_Male_HighDensity_MountingHoles"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DB15_Male_HighDensity_MountingHoles"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -24.13 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at -24.13 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector male D-SUB VGA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Male*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DB15_Male_HighDensity_MountingHoles_0_1"
+				(circle
+					(center -1.905 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.905 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.905 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.905 7.62)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.905 12.7)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -5.08) (xy -0.635 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -10.16) (xy -3.175 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 5.08) (xy -3.175 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 10.16) (xy -3.175 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 17.78) (xy -3.81 -15.24) (xy 3.81 -12.7) (xy 3.81 15.24) (xy -3.81 17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.905 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.905 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.905 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.905 7.62)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.905 12.7)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DB15_Male_HighDensity_MountingHoles_1_1"
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 12.7 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 12.7 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:DB9_Male_MountingHoles"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DB9_Male_MountingHoles"
+				(at 0 14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "9-pin male D-SUB connector, Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector male D-SUB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Male*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DB9_Male_MountingHoles_0_1"
+				(circle
+					(center -1.778 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -13.335) (xy -3.81 13.335) (xy 3.81 9.525) (xy 3.81 -9.525) (xy -3.81 -13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DB9_Male_MountingHoles_1_1"
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 147.32 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67230122-2e6c-49b0-8ccf-61186224f6bc")
+	)
+	(junction
+		(at 105.41 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77f425d9-9465-4ccc-8228-f25012761a77")
+	)
+	(junction
+		(at 76.2 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee5a72e-e8b8-4202-afb0-04d1c7dd1d8c")
+	)
+	(junction
+		(at 142.24 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa023a78-0d6d-4250-821b-ffe45bf5dd32")
+	)
+	(junction
+		(at 71.12 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d894f0e6-86f0-47fd-a59b-7a71954d07c3")
+	)
+	(junction
+		(at 110.49 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dba9ec71-29a1-4e21-b610-25007fb8d2a3")
+	)
+	(wire
+		(pts
+			(xy 242.57 104.14) (xy 22.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 1 0 255 1)
+		)
+		(uuid "03b5925b-7dff-444b-bb1e-1fadbebc6dbc")
+	)
+	(wire
+		(pts
+			(xy 92.71 157.48) (xy 92.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 1 0 255 1)
+		)
+		(uuid "0f6779c5-8172-4e74-b3e5-988e07c6b7c0")
+	)
+	(wire
+		(pts
+			(xy 100.33 63.5) (xy 100.33 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17adf1e0-f655-4a9c-9759-5d83cf20f44e")
+	)
+	(wire
+		(pts
+			(xy 142.24 147.32) (xy 142.24 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 109 0 1)
+		)
+		(uuid "18d48951-62ff-4f11-b680-c0dc9a56c58f")
+	)
+	(wire
+		(pts
+			(xy 110.49 142.24) (xy 147.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 122 0 1)
+		)
+		(uuid "1adeb7d4-54d1-4dd9-b333-2f64a4969931")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.22) (xy 81.28 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 1 0 255 1)
+		)
+		(uuid "1ee329e3-21fe-4267-ac20-b3f2307a16d5")
+	)
+	(wire
+		(pts
+			(xy 115.57 119.38) (xy 115.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 1 0 255 1)
+		)
+		(uuid "224f19f8-be7a-40f6-aa56-90d50f60bc94")
+	)
+	(wire
+		(pts
+			(xy 25.4 85.09) (xy 25.4 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2307c836-0333-4ab6-8a41-022741dcd19a")
+	)
+	(wire
+		(pts
+			(xy 195.58 147.32) (xy 142.24 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 109 0 1)
+		)
+		(uuid "24dd2ba1-84c9-4280-921c-120c05f41293")
+	)
+	(wire
+		(pts
+			(xy 40.64 179.07) (xy 40.64 142.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 122 0 1)
+		)
+		(uuid "2d2efbc6-d421-4559-a9ff-4df110bf4681")
+	)
+	(wire
+		(pts
+			(xy 35.56 147.32) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 109 0 1)
+		)
+		(uuid "37f43439-f8f9-4c9e-b9e7-9141def8c8c8")
+	)
+	(wire
+		(pts
+			(xy 40.64 142.24) (xy 76.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 122 0 1)
+		)
+		(uuid "39ef1847-b55a-4f57-8422-2b7cc526e3b6")
+	)
+	(wire
+		(pts
+			(xy 242.57 114.3) (xy 58.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 1 0 255 1)
+		)
+		(uuid "3ef777ac-43bf-432c-a087-613f684e9f25")
+	)
+	(wire
+		(pts
+			(xy 105.41 147.32) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 109 0 1)
+		)
+		(uuid "686b7c23-9599-46d0-86dd-004733a6160a")
+	)
+	(wire
+		(pts
+			(xy 129.54 148.59) (xy 129.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 1 0 255 1)
+		)
+		(uuid "6f8cd5de-fb9d-493f-9e11-c89883a1d4dc")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 66.04 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73db61a2-e66f-41aa-ac6a-a8adaa1b31ad")
+	)
+	(wire
+		(pts
+			(xy 110.49 142.24) (xy 110.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777ef7f0-30b7-46e0-accd-691bde5ad670")
+	)
+	(wire
+		(pts
+			(xy 22.86 104.14) (xy 22.86 179.07)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 1 0 255 1)
+		)
+		(uuid "81d23338-151e-45dc-9b9c-6b1bba0bd32a")
+	)
+	(wire
+		(pts
+			(xy 147.32 142.24) (xy 147.32 148.59)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 122 0 1)
+		)
+		(uuid "8401b304-d1d1-4800-9719-6609e6ed1904")
+	)
+	(wire
+		(pts
+			(xy 60.96 73.66) (xy 60.96 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957f8ead-fcd7-4765-b50a-c4bb203ec7ba")
+	)
+	(wire
+		(pts
+			(xy 105.41 147.32) (xy 105.41 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 109 0 1)
+		)
+		(uuid "96ae9f38-cbe9-4061-8c5f-3abcd29db15a")
+	)
+	(wire
+		(pts
+			(xy 76.2 142.24) (xy 74.93 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98992932-8c4f-4b68-90d4-5c0f3e3bfc5f")
+	)
+	(wire
+		(pts
+			(xy 95.25 63.5) (xy 95.25 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae242b8-a776-49dd-90c1-86a3d5ffa518")
+	)
+	(wire
+		(pts
+			(xy 152.4 148.59) (xy 152.4 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 1 0 255 1)
+		)
+		(uuid "9bfe5249-0ce5-4efe-b47d-210100b82b31")
+	)
+	(wire
+		(pts
+			(xy 30.48 85.09) (xy 30.48 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0598a5d-dc47-4904-abe8-8f1f3a4d74a4")
+	)
+	(wire
+		(pts
+			(xy 45.72 179.07) (xy 45.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 1 0 255 1)
+		)
+		(uuid "a9819218-3698-4b89-a85f-d603cae4d1b3")
+	)
+	(wire
+		(pts
+			(xy 132.08 54.61) (xy 132.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea6499e-791d-4d1d-a572-c6ff332774fe")
+	)
+	(wire
+		(pts
+			(xy 71.12 147.32) (xy 71.12 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 109 0 1)
+		)
+		(uuid "af57ee92-8564-4238-9f73-f0cdd88957cb")
+	)
+	(wire
+		(pts
+			(xy 58.42 114.3) (xy 58.42 168.91)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 1 0 255 1)
+		)
+		(uuid "b75e15f4-0a25-4a30-8ec0-8ec699f0b95e")
+	)
+	(wire
+		(pts
+			(xy 76.2 142.24) (xy 110.49 142.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 122 0 1)
+		)
+		(uuid "b9029c42-a529-487a-bda4-b4b741351219")
+	)
+	(wire
+		(pts
+			(xy 76.2 142.24) (xy 76.2 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccd66ae-2e08-44fd-898e-cab0ffea09d9")
+	)
+	(wire
+		(pts
+			(xy 45.72 99.06) (xy 237.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 1 0 255 1)
+		)
+		(uuid "c2207179-220a-48a5-85b6-3bb45342447c")
+	)
+	(wire
+		(pts
+			(xy 237.49 119.38) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 1 0 255 1)
+		)
+		(uuid "c569f469-ba8d-47ce-896e-b78405890458")
+	)
+	(wire
+		(pts
+			(xy 237.49 109.22) (xy 81.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 1 0 255 1)
+		)
+		(uuid "c6d7d3bb-db14-4658-9bbd-33bcadfc2965")
+	)
+	(wire
+		(pts
+			(xy 35.56 147.32) (xy 35.56 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 109 0 1)
+		)
+		(uuid "c8f2b0e2-248b-4526-bfae-b4e8a834f39c")
+	)
+	(wire
+		(pts
+			(xy 142.24 147.32) (xy 105.41 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 109 0 1)
+		)
+		(uuid "d3583cdf-1637-40d8-8ebb-2018ac03b2df")
+	)
+	(wire
+		(pts
+			(xy 147.32 142.24) (xy 195.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 122 0 1)
+		)
+		(uuid "e489aa5e-1344-47ef-aff2-d917d8ea578e")
+	)
+	(wire
+		(pts
+			(xy 129.54 135.89) (xy 242.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 1 0 255 1)
+		)
+		(uuid "ebd2f7c7-a156-48f6-9def-b2109a1cdf3c")
+	)
+	(wire
+		(pts
+			(xy 137.16 54.61) (xy 137.16 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1cebbe3-3324-4599-9475-074cf79e4742")
+	)
+	(wire
+		(pts
+			(xy 92.71 124.46) (xy 242.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 1 0 255 1)
+		)
+		(uuid "f9f452f2-36db-43e9-bdde-c5ee9fedd5cb")
+	)
+	(wire
+		(pts
+			(xy 152.4 130.81) (xy 237.49 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 1 0 255 1)
+		)
+		(uuid "fe043c01-6725-440b-9465-7db5916536a0")
+	)
+	(label "Lemo 4 (+)"
+		(at 167.64 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fedcdd6-c0df-4a9d-8dca-2fe689b2cbf5")
+	)
+	(label "Lemo 3 (+)"
+		(at 167.64 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25ba0297-2a58-4b8b-a24b-c69c453fb799")
+	)
+	(label "Lemo 2 (-)"
+		(at 167.64 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "270c1ba9-08cb-46e1-ad98-9ba518305e13")
+	)
+	(label "Lemo 4 (-)"
+		(at 167.64 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69467aee-2a15-4f8a-8af3-cba76044af9f")
+	)
+	(label "Lemo 2 (+)"
+		(at 167.64 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9103fc1a-fc57-4324-8adf-329a118d5f98")
+	)
+	(label "Lemo 1 (-)"
+		(at 167.64 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b08a0e0a-c7d9-4db7-bb48-b34e98ae5d5b")
+	)
+	(label "Lemo 3 (-)"
+		(at 167.64 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf38de17-e782-4af4-bd35-6617923d59d1")
+	)
+	(label "Lemo 1 (+)"
+		(at 167.64 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfc29087-7607-4faa-88dd-608b60c416b8")
+	)
+	(label "12V DC"
+		(at 200.66 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f539a8e8-5c96-49a9-8884-bceacfe93999")
+	)
+	(symbol
+		(lib_id "Connector:DB9_Male_MountingHoles")
+		(at 25.4 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1524cc07-19a9-4304-be8e-9f58972bc1d1")
+		(property "Reference" "DB9-2"
+			(at 25.4 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB9_Male_MountingHoles"
+			(at 25.4 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:DSUB-9_Receptical_A-DF_09_A_KG-T2S"
+			(at 25.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "5d2b0ae3-215c-4435-a957-64088f6e535d")
+		)
+		(pin "1"
+			(uuid "5d22d97a-6ea2-4468-a6c3-25b11187c77e")
+		)
+		(pin "2"
+			(uuid "aa0d7a60-b96c-4283-a24a-feb04078c70b")
+		)
+		(pin "3"
+			(uuid "55146b75-0a4b-4a00-8b68-72bfa240ce43")
+		)
+		(pin "4"
+			(uuid "82618d2d-581e-4bff-9392-d98a66b01955")
+		)
+		(pin "5"
+			(uuid "3beb1282-2c08-40d2-bdd1-26c98751fba1")
+		)
+		(pin "6"
+			(uuid "f2fca0b6-1a6f-4d3f-b354-b2bb5cdb11be")
+		)
+		(pin "7"
+			(uuid "0967e0b6-dfee-4c9a-9035-59a8d17b4e4d")
+		)
+		(pin "8"
+			(uuid "14ceca08-135e-48a0-bbf3-2725ea0eacba")
+		)
+		(pin "9"
+			(uuid "c2fd8df6-4d3c-4465-b1d8-7d79f259633e")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "DB9-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 242.57 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db53ba4-6477-4a9e-b6c7-7589ee453b90")
+		(property "Reference" "Lemo-3"
+			(at 245.11 129.8331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 245.11 132.3731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:LEMO-EPL.00.250.NTN"
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dcad692-07f1-4419-b740-7d1b1d2b2131")
+		)
+		(pin "2"
+			(uuid "30ebbe43-ac12-4046-9c80-05af04901dd6")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Lemo-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DB15_Male_HighDensity_MountingHoles")
+		(at 33.02 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "361b431e-7a7b-4f9b-9283-f9bd5da20f70")
+		(property "Reference" "DB15-2"
+			(at 52.07 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB15_Male_HighDensity_MountingHoles"
+			(at 52.07 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "fafaaf9c-782e-46eb-b8b8-ec50999639f9")
+		)
+		(pin "1"
+			(uuid "67253d7a-9a5c-41bb-96c3-92719b2902e6")
+		)
+		(pin "10"
+			(uuid "e416f08f-83aa-4154-9fc9-d42a7488879c")
+		)
+		(pin "11"
+			(uuid "51e1c19d-f8a7-4a1a-b1e8-cef5ae8d7825")
+		)
+		(pin "12"
+			(uuid "d9abe738-6a47-4980-b4d3-316a7ed1f400")
+		)
+		(pin "13"
+			(uuid "fcd53bb6-afcb-49c3-a34b-d9f070e5a3bd")
+		)
+		(pin "14"
+			(uuid "f053964b-24b4-4410-8cb9-c69ce7405b6c")
+		)
+		(pin "15"
+			(uuid "30e965b0-bf6d-431a-9321-548f5b5d1765")
+		)
+		(pin "2"
+			(uuid "78b9464b-1b7e-40ca-8f65-428d0443e7ba")
+		)
+		(pin "3"
+			(uuid "27279748-062a-4e8a-b556-1bd1b0e3b661")
+		)
+		(pin "4"
+			(uuid "e1b963ea-799b-44a7-a9cb-2a0dd2883700")
+		)
+		(pin "5"
+			(uuid "7636c8d9-78a1-4966-ba19-5913d43295cc")
+		)
+		(pin "6"
+			(uuid "247ea6b8-ad43-4b00-ae09-28d5266a16d4")
+		)
+		(pin "7"
+			(uuid "db966cb1-7007-4db5-a2c8-1769aa343712")
+		)
+		(pin "8"
+			(uuid "5ef02207-9a8d-4c56-81e6-63bca2d92dbe")
+		)
+		(pin "9"
+			(uuid "eea54216-c8c7-4f93-a0fa-1d0456b6d653")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "DB15-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DB15_Male_HighDensity_MountingHoles")
+		(at 68.58 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c7108a7-f7c3-4057-aa62-3216ff3b4c29")
+		(property "Reference" "DB15-4"
+			(at 87.63 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB15_Male_HighDensity_MountingHoles"
+			(at 87.63 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm"
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "169e8abd-58f2-4340-af7a-fe6a1bfd69f4")
+		)
+		(pin "1"
+			(uuid "c10dc0a8-8955-43fe-8534-187bf0420ea3")
+		)
+		(pin "10"
+			(uuid "46c65159-9890-4ea6-a35b-e1b9777fa1a0")
+		)
+		(pin "11"
+			(uuid "68cec67c-89ef-485f-a375-bc4f33c0cfe6")
+		)
+		(pin "12"
+			(uuid "22837863-9c0a-46e5-af10-2bf4a60b69f3")
+		)
+		(pin "13"
+			(uuid "e48c5d58-26d3-47ef-9b68-75752dbd988c")
+		)
+		(pin "14"
+			(uuid "86c0b3a9-57b5-4585-8c86-327bdede09fe")
+		)
+		(pin "15"
+			(uuid "8c4654a1-3070-44e2-bf7a-748ae477d20c")
+		)
+		(pin "2"
+			(uuid "d6359608-f6b6-4777-ab95-3441937df26e")
+		)
+		(pin "3"
+			(uuid "b185acc3-a878-4a36-9098-c2d3ab68cc09")
+		)
+		(pin "4"
+			(uuid "5648d5fc-f7d0-4a6f-83b7-5d1383d00427")
+		)
+		(pin "5"
+			(uuid "4cb2be5e-0331-433e-9490-f2c99519a5d3")
+		)
+		(pin "6"
+			(uuid "b09f4b28-d894-48b0-a9e5-019325ea8abd")
+		)
+		(pin "7"
+			(uuid "130b174c-157e-43ba-9384-7be0cd1bf4b0")
+		)
+		(pin "8"
+			(uuid "b6a3b2d9-2360-4b27-9d2d-813f876e980e")
+		)
+		(pin "9"
+			(uuid "df1418e4-bc60-4b6a-9b94-47fb92519892")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "DB15-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 242.57 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf79468-b816-4360-9723-e9e81aab5923")
+		(property "Reference" "Lemo-4"
+			(at 245.11 108.2431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 245.11 110.7831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:LEMO-EPL.00.250.NTN"
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38ae9a69-f477-4e4c-aa26-807b938a237e")
+		)
+		(pin "2"
+			(uuid "68533ca3-a3eb-4fb7-a42c-d7097bd67abe")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Lemo-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DB9_Male_MountingHoles")
+		(at 60.96 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b596b019-6ef2-480c-a0a1-c99f3507636c")
+		(property "Reference" "DB9-4"
+			(at 60.96 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB9_Male_MountingHoles"
+			(at 60.96 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:DSUB-9_Receptical_A-DF_09_A_KG-T2S"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "20d5e34f-e481-4d1f-9156-52b7552f6e8f")
+		)
+		(pin "1"
+			(uuid "a5550af1-e7b6-4059-b50e-81f548241db8")
+		)
+		(pin "2"
+			(uuid "e76d78b0-81a1-41bb-81a5-9f61fa82b4eb")
+		)
+		(pin "3"
+			(uuid "d8ca89a7-ea24-4310-a855-c0b358a9cb9d")
+		)
+		(pin "4"
+			(uuid "2f74359e-d216-4bab-b548-5f3ab7abb7bc")
+		)
+		(pin "5"
+			(uuid "fe7465f0-843e-45ba-871d-30c19ca30685")
+		)
+		(pin "6"
+			(uuid "fbfde4f4-f4b4-4390-b94e-b8765eb43ac8")
+		)
+		(pin "7"
+			(uuid "2dd935fd-9247-4232-a453-a606895ac77f")
+		)
+		(pin "8"
+			(uuid "27abb706-e759-4b80-ae05-9a569becb839")
+		)
+		(pin "9"
+			(uuid "b61bb23c-1a14-4da4-b3f6-fd901d8585ac")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "DB9-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DB9_Male_MountingHoles")
+		(at 95.25 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b95b89de-1956-4bc8-8b9c-941d90cb27e6")
+		(property "Reference" "DB9-1"
+			(at 95.25 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB9_Male_MountingHoles"
+			(at 95.25 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:DSUB-9_Receptical_A-DF_09_A_KG-T2S"
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "7e95924a-2128-4d5a-ab22-7afdedc5c57e")
+		)
+		(pin "1"
+			(uuid "ad160741-eb92-4311-ade2-eb6d5f52b78a")
+		)
+		(pin "2"
+			(uuid "bded5791-68d4-4f98-9af5-4e2990522f55")
+		)
+		(pin "3"
+			(uuid "e3e5fb4b-e84c-477e-946f-85c5ae8e3199")
+		)
+		(pin "4"
+			(uuid "e6d3e90c-5728-4ed7-b8e0-46532684012f")
+		)
+		(pin "5"
+			(uuid "fa8b6c28-08c4-4080-ada2-fa017e7dec6b")
+		)
+		(pin "6"
+			(uuid "97723a27-2e34-45c5-9045-634e1221a779")
+		)
+		(pin "7"
+			(uuid "6170d0a2-ef6d-472d-ae07-2f7195de489f")
+		)
+		(pin "8"
+			(uuid "3a6f150c-ea2b-458d-8294-48da67111729")
+		)
+		(pin "9"
+			(uuid "bbb5aee2-abd4-421a-bfe6-30ecb90832db")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "DB9-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 242.57 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9778fed-f6a2-4a75-9f52-a8c5f71156d3")
+		(property "Reference" "Lemo-2"
+			(at 245.11 98.0831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 245.11 100.6231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:LEMO-EPL.00.250.NTN"
+			(at 242.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fab0d322-543d-49f0-819b-ee1d2db37921")
+		)
+		(pin "2"
+			(uuid "4359b513-bd55-415b-94d9-c0da251179a3")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Lemo-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DB15_Male_HighDensity_MountingHoles")
+		(at 139.7 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc5f7b5b-4d0b-4e67-bcf2-961ff2201385")
+		(property "Reference" "DB15-3"
+			(at 158.75 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB15_Male_HighDensity_MountingHoles"
+			(at 158.75 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "01448985-e41d-4007-ab7c-55a4f0f6ba54")
+		)
+		(pin "1"
+			(uuid "953888f1-bae9-48c1-971e-2001a8db185a")
+		)
+		(pin "10"
+			(uuid "95e41869-dc4b-402e-8072-b4c77715c31d")
+		)
+		(pin "11"
+			(uuid "9c9ac869-3baa-436d-bf2d-d78d4224b183")
+		)
+		(pin "12"
+			(uuid "d6dc009b-eab0-4efa-b283-b5b9c1b8d549")
+		)
+		(pin "13"
+			(uuid "128ebf25-1a30-4404-886f-04529a2001ff")
+		)
+		(pin "14"
+			(uuid "7668ebc7-4bf3-44f5-9b26-0edee4d0fdee")
+		)
+		(pin "15"
+			(uuid "f482a6a7-ff48-4e0b-a14a-780923c05251")
+		)
+		(pin "2"
+			(uuid "a6e19b13-9914-423f-ac84-aec96c70cdc2")
+		)
+		(pin "3"
+			(uuid "7d839ced-3fd0-489e-8ae2-55498e3936f7")
+		)
+		(pin "4"
+			(uuid "0b18b7a4-f57a-4dd2-9f78-5a71439b5801")
+		)
+		(pin "5"
+			(uuid "4c8a6c00-bdf2-4521-953a-d2afd12da0b3")
+		)
+		(pin "6"
+			(uuid "28ed2833-fdf9-4d9c-a610-abf8316b23cc")
+		)
+		(pin "7"
+			(uuid "1158181e-bf58-40a7-9259-0370f99bac8c")
+		)
+		(pin "8"
+			(uuid "82d5ba15-5580-4e95-80c9-f5c47fedf3d5")
+		)
+		(pin "9"
+			(uuid "c4609473-5ec2-4e3c-9b9b-fd5dae600fa1")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "DB15-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 242.57 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd2d163e-adfe-4cfb-bd12-471561c13e07")
+		(property "Reference" "Lemo-1"
+			(at 245.11 118.4031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 245.11 120.9431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:LEMO-EPL.00.250.NTN"
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c5c4da7-4f89-4f5d-b913-5384ce5db022")
+		)
+		(pin "2"
+			(uuid "da369458-b1c0-4089-80e5-9807fe582134")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Lemo-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack")
+		(at 203.2 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2c0ba62-4f00-4530-9dd3-a48c27b90211")
+		(property "Reference" "J9"
+			(at 209.55 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Barrel_Jack"
+			(at 209.55 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 201.93 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35b6aec6-7062-4e85-b29b-74e1ddd6f80e")
+		)
+		(pin "2"
+			(uuid "d1e66150-69e3-4491-94b6-3e43c10d74a9")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DB15_Male_HighDensity_MountingHoles")
+		(at 102.87 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f602f74b-e606-42d0-aab7-713f25f1f15d")
+		(property "Reference" "DB15-1"
+			(at 121.92 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DB15_Male_HighDensity_MountingHoles"
+			(at 121.92 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm"
+			(at 113.03 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "f46d72ed-2847-4b54-b74b-634bb732bdb0")
+		)
+		(pin "1"
+			(uuid "8c790751-480a-4c77-b3e3-18ad7c08fd74")
+		)
+		(pin "10"
+			(uuid "8c8d663b-9f59-4fe8-a0f4-17a5bcc9ff73")
+		)
+		(pin "11"
+			(uuid "ec5772c6-7cc2-4597-8ff4-1bb3ca4641ee")
+		)
+		(pin "12"
+			(uuid "ad117f96-4eba-4260-8ff5-b92328ffa92d")
+		)
+		(pin "13"
+			(uuid "ec09c969-83ec-40d3-9cc1-7095e6ac4650")
+		)
+		(pin "14"
+			(uuid "18909c61-dd05-4939-b566-37c6c1698a95")
+		)
+		(pin "15"
+			(uuid "405c83e0-7d4b-46d1-8a06-8f9f3914b52d")
+		)
+		(pin "2"
+			(uuid "adc3de90-fe68-4889-aa1f-b2891afd7b4b")
+		)
+		(pin "3"
+			(uuid "fe1d3770-c1f8-42fc-8a6c-ae5536f83f1b")
+		)
+		(pin "4"
+			(uuid "af984cd5-324d-4a68-ab71-1e46733b828f")
+		)
+		(pin "5"
+			(uuid "343a1989-0394-4c67-8fd4-4e3e4de180b9")
+		)
+		(pin "6"
+			(uuid "94bc4ffd-54fe-4c85-a085-14b99e900802")
+		)
+		(pin "7"
+			(uuid "42cc96d2-24bd-494e-8764-5ab75d297d3c")
+		)
+		(pin "8"
+			(uuid "ba248bb2-1c3f-4852-82c5-baa4e9beaa39")
+		)
+		(pin "9"
+			(uuid "37463f21-b807-43a8-87df-b65d0efb076f")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "DB15-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DB9_Male_MountingHoles")
+		(at 132.08 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa510308-1624-42fc-b0a3-5ef704507be8")
+		(property "Reference" "DB9-3"
+			(at 132.08 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB9_Male_MountingHoles"
+			(at 132.08 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:DSUB-9_Receptical_A-DF_09_A_KG-T2S"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "788b79b3-a2b6-4ab7-bac0-9bf135f564a8")
+		)
+		(pin "1"
+			(uuid "b4aa264f-1c51-4e45-a86d-7a0e6ba47a22")
+		)
+		(pin "2"
+			(uuid "321dc2d7-e8b0-4318-98e3-717250d3a67e")
+		)
+		(pin "3"
+			(uuid "46c57452-af83-4a0e-ae5f-efe6bde3306d")
+		)
+		(pin "4"
+			(uuid "1443c355-e83f-4732-9080-8249baf0fa66")
+		)
+		(pin "5"
+			(uuid "f06d7075-c552-423f-8e53-cbe38869fda3")
+		)
+		(pin "6"
+			(uuid "d8a07835-c478-46f4-9fe3-8ce4639022dc")
+		)
+		(pin "7"
+			(uuid "8fedbf36-00ba-411d-9e8e-055537132618")
+		)
+		(pin "8"
+			(uuid "531f501b-c8b8-4326-b6d5-f2651a66bab7")
+		)
+		(pin "9"
+			(uuid "43fb0a3d-a75c-4a89-929f-3bfabd56e48f")
+		)
+		(instances
+			(project "MKS974_interface_board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "DB9-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
